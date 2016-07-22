@@ -1,6 +1,11 @@
 # Modern JavaScript Developer Quiz
 # Robot Battledome
 
+##My Notes:
+
+I used some concepts that we learned in our group battlebot project to build my own game.
+Testing with browserify is something I need to do more research on. Jasmine was creating problems for me so I used Tape to do some simple tests. However Tape apparently does not work with jQuery. 
+
 ## Setup
 
 1. `cd` to your quizzes directory.

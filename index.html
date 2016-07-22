@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="quiz.css" href="https://fonts.googleapis.com/css?family=KiloGram">
+</head>
+<body>
+<h1><i>ROBO-BATTLE-ROYALE</i></h1>
+  <container>
+  <div id="robotMaker">
+  <p>Name First Robot</p>
+  <input type="text" id="robot1" name="robot 1">
+  <select id="typeRobot1">
+    <option selected disabled>Robot Type</option>
+    <option value="Drone01">Drone01</option>
+    <option value="Drone02">Drone02</option>
+    <option value="Bipedal01">Bipedal01</option>
+    <option value="Bipedal02">Bipedal02</option>
+    <option value="ATV01">ATV01</option>
+    <option value="ATV02">ATV02</option>
+  </select>
+
+  <p>Name Second Robot</p>
+  <input type=text" id="robot2" name="robot 2">
+  <select id="typeRobot2">
+    <option selected disabled>Robot Type</option>
+    <option value="Drone01">Drone01</option>
+    <option value="Drone02">Drone02</option>
+    <option value="Bipedal01">Bipedal01</option>
+    <option value="Bipedal02">Bipedal02</option>
+    <option value="ATV01">ATV01</option>
+    <option value="ATV02">ATV02</option>
+  </select>
+
+  <input type="button" id="attack" value="FIGHT!">
+  </div>
+
+  <div id="healthDiv"></div>
+  <div id="pickDoor">
+  <p>Random Attack:</p>
+  <button id="door1" class="door" type="button">1</button>
+  <button id="door2" class="door" type="button">2</button>
+  <button id="door3" class="door" type="button">3</button>
+  </div>
+  <div id="timer"></div>
+  <div id="output"></div>
+
+  </container>
+<!--   
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>   -->
+  <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script> -->
+  <script src="dist/bundle.js"></script>
+</body>
+</html>
